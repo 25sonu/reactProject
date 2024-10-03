@@ -1,5 +1,7 @@
 import React from 'react';
 
+const API_URL = process.env.REACT_APP_API_URL;
+
 const DeletePerson = ({ id, onDelete }) => {
   const handleDelete = () => {
     if (window.confirm('Are you sure you want to delete this person?')) {

@@ -2,6 +2,8 @@
 
 import React from 'react';
 
+const API_URL = process.env.REACT_APP_API_URL;
+
 const Notification = ({ message, onClose }) => {
   const notificationClass = `notification ${message.type}`;
 
