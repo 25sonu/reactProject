@@ -1,19 +1,13 @@
 import React from 'react';
+// import axios from 'axios';
 
-const API_URL = process.env.REACT_APP_API_URL;
-
-const DeletePerson = ({ id, onDelete }) => {
-  const handleDelete = () => {
-    if (window.confirm('Are you sure you want to delete this person?')) {
-      onDelete(id);
-    }
-  };
-
-  return (
-    <button className="btn btn-delete" onClick={handleDelete}>
-      Delete
-    </button>
-  );
-};
+const DeletePerson = () => {
+    const API_URL = process.env.REACT_APP_API_URL
+    return(
+        <div>
+            <h2> This page is use for delete </h2>
+        </div>
+    )
+}
 
 export default DeletePerson;

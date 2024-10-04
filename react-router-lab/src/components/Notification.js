@@ -1,18 +1,13 @@
-// src/components/Notification.js
-
 import React from 'react';
+// import axios from 'axios';
 
-const API_URL = process.env.REACT_APP_API_URL;
-
-const Notification = ({ message, onClose }) => {
-  const notificationClass = `notification ${message.type}`;
-
-  return (
-    <div className={notificationClass}>
-      {message.text}
-      <button onClick={onClose} className="btn btn-cancel">Close</button>
-    </div>
-  );
-};
+const Notification = () => {
+    const API_URL = process.env.REACT_APP_API_URL
+    return(
+        <div>
+            <h2> This page is use for show Notification </h2>
+        </div>
+    )
+}
 
 export default Notification;
