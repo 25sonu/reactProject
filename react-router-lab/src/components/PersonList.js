@@ -7,7 +7,7 @@ import '../styles/PersonList.css'; // Component-specific styles
 
 const API_URL = process.env.REACT_APP_API_URL;
 
-const output = axios.get("https://5000-25sonu-reactproject-tl78hgxb2ac.ws-us116.gitpod.io/persons");
+const output = axios.get("https://5000-25sonu-reactproject-rrlze2cywik.ws-us116.gitpod.io/persons");
 
 const PersonList = () => {
   const [people, setPeople] = useState([]);
